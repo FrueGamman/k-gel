@@ -1,0 +1,93 @@
+.wrapper {
+    text-align: center;
+  }
+  .wrapper .img {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+  }
+  .wrapper .img i {
+    font-size: 25px;
+  }
+  .wrapper .product {
+    padding: 30px;
+  }
+  .wrapper .product h3 {
+    font-weight: 500;
+  }
+  .wrapper p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: grey;
+  }
+  
+  .product {
+    padding:8px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    margin: 8px;
+  }
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  .product h3 {
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .product .rate i {
+    font-size: 15px;
+    color: #ffcd4e;
+    margin: 5px 5px 5px 0;
+  }
+  .product .price {
+    display: flex;
+    justify-content: space-between;
+    color: #e94560;
+  }
+  .price button {
+    background: none;
+    color: #e94560;
+    font-size: 20px;
+    transition: 0.5s;
+    border: 1px solid rgb(3 0 71 / 9%);
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  .price button:hover {
+    cursor: pointer;
+    background-color: #e94560;
+    color: #fff;
+  }
+  .product-like {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .product-like label {
+    background-color: #0f3460;
+    padding: 1px 10px;
+    font-size: 12px;
+    color: white;
+    border-radius: 50px;
+  }
+  .product-like i {
+    font-size: 20px;
+    margin: 10px 3px;
+  }
+  .product:hover .product-like {
+    opacity: 1;
+  }
